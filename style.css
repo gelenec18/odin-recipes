@@ -1,0 +1,65 @@
+@import url('https://fonts.google.com/specimen/Dancing+Script');
+html {
+    font-family: ;
+}
+
+h1,h2,h3,h4,h5,6 {
+    font-weight: 300;
+}
+
+.item img:hover {
+    transform: scale(1.05);
+    transition: all ease;
+    border-radius: 15px;
+    box-shadow:0 0 5px rgb(135, 219, 140)
+}
+
+#logo,
+.heading {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+}
+
+.heading,
+.recipe-title{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: left;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    font-size: 20px;
+    gap 10px;
+}
+
+div img {
+    width: 350px;
+    height: 500px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    width: 400px;
+    text-align: center;
+}
+
+.heading,
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-left: 20px;
+    width: 410px;
+    height: 200px;
+}
+
